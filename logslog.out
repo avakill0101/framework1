@@ -1,0 +1,249 @@
+Get connection: {}->http://localhost:29571, timeout = 120000
+[{}->http://localhost:29571] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:29571][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:29571][null]
+Creating new connection [{}->http://localhost:29571]
+Connecting to localhost:29571
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /session HTTP/1.1
+ >> "POST /session HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+ >> "Content-Length: 143[\r][\n]"
+ >> "Host: localhost:29571[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> POST /session HTTP/1.1
+>> Accept: application/json, image/png
+>> Content-Type: application/json; charset=utf-8
+>> Content-Length: 143
+>> Host: localhost:29571
+>> Connection: Keep-Alive
+ >> "{"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:557[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:557
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"d3e0cbdb4f76b1c621483dc89ad90853","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"userDataDir":"C:\\Users\\Admin010\\AppData\\Local\\Temp\\scoped_dir8080_26986"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"31.0.1650.57","webStorageEnabled":true}}"
+Connection 0.0.0.0:12363<->127.0.0.1:29571 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:29571][null]
+Connection 0.0.0.0:12363<->127.0.0.1:29571 closed
+Notifying no-one, there are no waiting threads
+Get connection: {}->http://localhost:42380, timeout = 120000
+[{}->http://localhost:42380] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:42380][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:42380][null]
+Creating new connection [{}->http://localhost:42380]
+Connecting to localhost:42380
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /session HTTP/1.1
+ >> "POST /session HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+ >> "Content-Length: 143[\r][\n]"
+ >> "Host: localhost:42380[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> POST /session HTTP/1.1
+>> Accept: application/json, image/png
+>> Content-Type: application/json; charset=utf-8
+>> Content-Length: 143
+>> Host: localhost:42380
+>> Connection: Keep-Alive
+ >> "{"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:557[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:557
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"83ab758a71d3df956c044ee6ddae1a06","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"userDataDir":"C:\\Users\\Admin010\\AppData\\Local\\Temp\\scoped_dir2728_22030"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"31.0.1650.57","webStorageEnabled":true}}"
+Connection 0.0.0.0:12368<->127.0.0.1:42380 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:42380][null]
+Connection 0.0.0.0:12368<->127.0.0.1:42380 closed
+Notifying no-one, there are no waiting threads
+Get connection: {}->http://localhost:29571, timeout = 120000
+[{}->http://localhost:29571] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:29571][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:29571][null]
+Creating new connection [{}->http://localhost:29571]
+Connecting to localhost:29571
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /session/d3e0cbdb4f76b1c621483dc89ad90853/window/current/maximize HTTP/1.1
+ >> "POST /session/d3e0cbdb4f76b1c621483dc89ad90853/window/current/maximize HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+ >> "Content-Length: 26[\r][\n]"
+ >> "Host: localhost:29571[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> POST /session/d3e0cbdb4f76b1c621483dc89ad90853/window/current/maximize HTTP/1.1
+>> Accept: application/json, image/png
+>> Content-Type: application/json; charset=utf-8
+>> Content-Length: 26
+>> Host: localhost:29571
+>> Connection: Keep-Alive
+ >> "{"windowHandle":"current"}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:72[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:72
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"d3e0cbdb4f76b1c621483dc89ad90853","status":0,"value":null}"
+Connection 0.0.0.0:12371<->127.0.0.1:29571 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:29571][null]
+Connection 0.0.0.0:12371<->127.0.0.1:29571 closed
+Notifying no-one, there are no waiting threads
+Get connection: {}->http://localhost:29571, timeout = 120000
+[{}->http://localhost:29571] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:29571][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:29571][null]
+Creating new connection [{}->http://localhost:29571]
+Connecting to localhost:29571
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /session/d3e0cbdb4f76b1c621483dc89ad90853/url HTTP/1.1
+ >> "POST /session/d3e0cbdb4f76b1c621483dc89ad90853/url HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+ >> "Content-Length: 51[\r][\n]"
+ >> "Host: localhost:29571[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> POST /session/d3e0cbdb4f76b1c621483dc89ad90853/url HTTP/1.1
+>> Accept: application/json, image/png
+>> Content-Type: application/json; charset=utf-8
+>> Content-Length: 51
+>> Host: localhost:29571
+>> Connection: Keep-Alive
+ >> "{"url":"http://simpl.info/getusermedia/index.html"}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:72[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:72
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"d3e0cbdb4f76b1c621483dc89ad90853","status":0,"value":null}"
+Connection 0.0.0.0:12373<->127.0.0.1:29571 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:29571][null]
+Connection 0.0.0.0:12373<->127.0.0.1:29571 closed
+Notifying no-one, there are no waiting threads
+Get connection: {}->http://localhost:29571, timeout = 120000
+[{}->http://localhost:29571] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:29571][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:29571][null]
+Creating new connection [{}->http://localhost:29571]
+Connecting to localhost:29571
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /session/d3e0cbdb4f76b1c621483dc89ad90853/timeouts/implicit_wait HTTP/1.1
+ >> "POST /session/d3e0cbdb4f76b1c621483dc89ad90853/timeouts/implicit_wait HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+ >> "Content-Length: 12[\r][\n]"
+ >> "Host: localhost:29571[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> POST /session/d3e0cbdb4f76b1c621483dc89ad90853/timeouts/implicit_wait HTTP/1.1
+>> Accept: application/json, image/png
+>> Content-Type: application/json; charset=utf-8
+>> Content-Length: 12
+>> Host: localhost:29571
+>> Connection: Keep-Alive
+ >> "{"ms":10000}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:72[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:72
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"d3e0cbdb4f76b1c621483dc89ad90853","status":0,"value":null}"
+Connection 0.0.0.0:12384<->127.0.0.1:29571 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:29571][null]
+Connection 0.0.0.0:12384<->127.0.0.1:29571 closed
+Notifying no-one, there are no waiting threads
+Get connection: {}->http://localhost:29571, timeout = 120000
+[{}->http://localhost:29571] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+No free connections [{}->http://localhost:29571][null]
+Available capacity: 2000 out of 2000 [{}->http://localhost:29571][null]
+Creating new connection [{}->http://localhost:29571]
+Connecting to localhost:29571
+CookieSpec selected: best-match
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /session/d3e0cbdb4f76b1c621483dc89ad90853/window_handle HTTP/1.1
+ >> "GET /session/d3e0cbdb4f76b1c621483dc89ad90853/window_handle HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, image/png[\r][\n]"
+ >> "Cache-Control: no-cache[\r][\n]"
+ >> "Host: localhost:29571[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "[\r][\n]"
+>> GET /session/d3e0cbdb4f76b1c621483dc89ad90853/window_handle HTTP/1.1
+>> Accept: application/json, image/png
+>> Cache-Control: no-cache
+>> Host: localhost:29571
+>> Connection: Keep-Alive
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Content-Length:115[\r][\n]"
+ << "Content-Type:application/json; charset=utf-8[\r][\n]"
+ << "Connection:close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Content-Length:115
+<< Content-Type:application/json; charset=utf-8
+<< Connection:close
+ << "{"sessionId":"d3e0cbdb4f76b1c621483dc89ad90853","status":0,"value":"CDwindow-A4460B13-1E79-4C6F-ADEB-C3E39E8725F8"}"
+Connection 0.0.0.0:12385<->127.0.0.1:29571 shut down
+Released connection is not reusable.
+Releasing connection [{}->http://localhost:29571][null]
+Connection 0.0.0.0:12385<->127.0.0.1:29571 closed
+Notifying no-one, there are no waiting threads

@@ -1,0 +1,44 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\Libraries\chromedriver.exe
+[1.077][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.078][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[1.298][INFO]:      Connected to Chrome successfully. Version: 31.0.1650.57
+[1.317][FINE]:      Command received (/session/520e41fa50b0b0aee2aabfcd36e1323c)
+[1.317][FINE]:      Command finished (/session/520e41fa50b0b0aee2aabfcd36e1323c) with response {
+   "sessionId": "520e41fa50b0b0aee2aabfcd36e1323c",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "31.0.1650.57",
+      "webStorageEnabled": true
+   }
+}
+
+[1.337][FINE]:      Command received (/session/520e41fa50b0b0aee2aabfcd36e1323c/window/current/maximize) with params {
+   "windowHandle": "current"
+}
+
+[1.337][FINER]:     Waiting for all views to stop loading...
+[1.337][FINER]:     Done waiting for all views to stop loading
